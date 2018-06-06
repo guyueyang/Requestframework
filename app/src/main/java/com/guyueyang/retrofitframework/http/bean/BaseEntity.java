@@ -2,6 +2,8 @@ package com.guyueyang.retrofitframework.http.bean;
 
 import com.google.gson.annotations.Expose;
 
+import org.litepal.crud.DataSupport;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +13,7 @@ import java.io.Serializable;
  *
  */
 
-public class BaseEntity<T>  implements Serializable {
+public class BaseEntity<T> extends DataSupport implements Serializable {
     @Expose
     private T baseServerInfo;
     @Expose

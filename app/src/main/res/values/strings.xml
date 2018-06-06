@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Retrofitframework</string>
+    <string name="progressbar_wait">请稍候&#8230;</string>
+    <string name="dialog_sure">确定</string>
+    <string name="format_aspect">%1$.1f</string>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="retrofit" ></dbname>
+    <version value="3" ></version>
+
+    <list>
+        <mapping class="com.guyueyang.retrofitframework.http.bean.BaseEntity"></mapping>
+        <mapping class="com.guyueyang.retrofitframework.http.bean.VersionEntity"></mapping>
+    </list>
+</litepal>
