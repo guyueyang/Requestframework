@@ -13,12 +13,12 @@ https://www.jianshu.com/p/ba4982be30f8
 https://blog.csdn.net/bskfnvjtlyzmv867/article/details/71480647
 
 在需要接收事件的fragment注册事件关闭fragment取消注册
-  @Override
+    @Override
     protected void setupViews() {
         EventBusUtil.registerEvent(this);
     }
 
- @Override
+    @Override
     public void onDestroy() {
         super.onDestroy();
         EventBusUtil.unregisterEvent(this);
