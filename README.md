@@ -12,7 +12,7 @@ https://www.jianshu.com/p/ba4982be30f8
 封装事件处理
 https://blog.csdn.net/bskfnvjtlyzmv867/article/details/71480647
 
-在需要接收事件的fragment注册事件关闭fragment取消注册
+在需要接收事件的fragment订阅事件关闭fragment取消订阅
 
     @Override
     protected void setupViews() {
